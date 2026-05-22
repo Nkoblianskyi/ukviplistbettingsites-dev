@@ -17,6 +17,19 @@ export interface BettingSite {
 
 export const bettingSites: BettingSite[] = [
     {
+    id: 4,
+    name: "BetVictor",
+    logo: "/betvictor.webp",
+    bonus: "Get £30 Free Bets",
+    url: "https://www.betvictor.com/en-gb/",
+    rating: 9.9,
+    stars: 5,
+    reviews: 5846,
+    features: ["UKGC Licensed", "Bet Builder", "In-Play Betting"],
+    terms: "18+ | New customers | Bet £5 to get £30 in Free Bets | Valid 7 days | T&Cs apply | BeGambleAware.org",
+    isTrending: true,
+  },
+    {
     id: 1,
     name: "Ladbrokes",
     logo: "/ladbrokes.webp",
@@ -55,19 +68,7 @@ export const bettingSites: BettingSite[] = [
     terms: "18+ | New customers only | Min deposit £10 | T&Cs apply | BeGambleAware.org",
     isPopular: true,
   },
-  {
-    id: 4,
-    name: "BetVictor",
-    logo: "/betvictor.webp",
-    bonus: "Get £30 Free Bets",
-    url: "https://www.betvictor.com/en-gb/",
-    rating: 9.4,
-    stars: 5,
-    reviews: 5846,
-    features: ["UKGC Licensed", "Bet Builder", "In-Play Betting"],
-    terms: "18+ | New customers | Bet £5 to get £30 in Free Bets | Valid 7 days | T&Cs apply | BeGambleAware.org",
-    isTrending: true,
-  },
+
   {
     id: 5,
     name: "Midnite",

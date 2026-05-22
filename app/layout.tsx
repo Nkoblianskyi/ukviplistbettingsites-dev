@@ -24,7 +24,7 @@ const barlow = Barlow_Condensed({
 })
 
 export const metadata: Metadata = {
-  title: "UK VIP List Betting Sites — Top UKGC Bookmakers 2025",
+  title: "UK VIP List Betting Sites — Top UKGC Bookmakers 2026",
   description:
     "Discover the UK's most trusted VIP betting sites. Independent expert rankings of UKGC-licensed bookmakers with exclusive offers, in-depth reviews, and unbiased ratings. ukviplistbettingsites.com",
   robots: "index, follow",
