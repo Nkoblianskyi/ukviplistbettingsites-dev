@@ -31,10 +31,7 @@ export function PageLayout({ title, subtitle, badge, children }: PageLayoutProps
         <div className="mx-auto max-w-[1100px]">
           <Link
             href="/"
-            className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest mb-5 transition-colors"
-            style={{ color: "hsl(220 15% 45%)" }}
-            onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "hsl(43 85% 58%)")}
-            onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "hsl(220 15% 45%)")}
+            className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest mb-5 transition-colors text-[hsl(220_15%_45%)] hover:text-[hsl(43_85%_58%)]"
           >
             <ArrowLeft className="w-3 h-3" aria-hidden="true" />
             Back to Rankings

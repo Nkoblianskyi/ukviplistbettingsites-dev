@@ -69,14 +69,7 @@ export function Footer() {
               <Link
                 key={href}
                 href={href}
-                className="text-xs text-muted-foreground transition-colors uppercase tracking-wide font-mono"
-                style={{ transitionProperty: "color" }}
-                onMouseEnter={(e) => {
-                  ;(e.currentTarget as HTMLAnchorElement).style.color = "hsl(43 85% 58%)"
-                }}
-                onMouseLeave={(e) => {
-                  ;(e.currentTarget as HTMLAnchorElement).style.color = ""
-                }}
+                className="text-xs text-muted-foreground transition-colors uppercase tracking-wide font-mono hover:text-[hsl(43_85%_58%)]"
               >
                 {label}
               </Link>
